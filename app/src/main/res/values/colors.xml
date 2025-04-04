@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couleurs de base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Couleurs françaises -->
+    <color name="french_blue">#0055A4</color>
+    <color name="french_white">#FFFFFF</color>
+    <color name="french_red">#E30B5C</color>
+
+    <!-- Variations de couleurs pour différents états -->
+    <color name="french_blue_dark">#003C74</color>
+    <color name="french_red_dark">#B20846</color>
+
+    <!-- Couleurs pour le fond et les textes -->
+    <color name="background_light">#F5F5F5</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+</resources>

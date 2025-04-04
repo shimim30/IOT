@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Structure du panneau -->
+    <path
+        android:fillColor="#0055A4"
+        android:pathData="M10,30 h80 v40 h-80 z" /> <!-- Panneau -->
+
+    <!-- Lignes verticales (division du panneau) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M30,30 v40" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M50,30 v40" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M70,30 v40" />
+
+    <!-- Lignes horizontales (division du panneau) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M10,45 h80" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M10,60 h80" />
+
+    <!-- Support du panneau -->
+    <path
+        android:fillColor="#444444"
+        android:pathData="M45,70 v20 h10 v-20 z" />
+
+    <!-- Sol -->
+    <path
+        android:fillColor="#888888"
+        android:pathData="M0,90 h100 v10 h-100 z" />
+</vector>
