@@ -23,20 +23,6 @@ Côté STM32 (MicroPython) :
 - Actionneur : servomoteur contrôlé via PWM
 - Communication BLE UART
 
-  
-Structure du projet
-MyApplication/
-├── app/
-│   ├── micropython/          # Code MicroPython pour la STM32
-│   │   └── main.py
-│   ├── java/                 # Code Java de l'application Android
-│   ├── build.gradle.kts
-│   └── proguard-rules.pro
-├── build.gradle.kts
-├── settings.gradle.kts
-├── gradlew / gradlew.bat
-├── gradle.properties
-
 
 Fonctionnement
 STM32 (MicroPython)
